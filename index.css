@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+li {
+    list-style: none;
+    line-height: 50px;
+}
+
+a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3em;
+    text-decoration: none;
+    transition: all 0s 0s;
+    padding: 0 10px;
+    text-shadow: 0 0 10px #fff;
+}
+
+a:hover {
+    background: #fff;
+    color: #000;
+    text-shadow: 0 0 10px #000;
+}
